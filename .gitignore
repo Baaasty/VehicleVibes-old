@@ -1,0 +1,35 @@
+# IDE
+.idea/
+*.iml
+*.classpath
+*.project
+*.settings/
+.vscode/
+*.code-workspace
+.classpath
+.project
+.settings/
+.springBeans
+bin/
+*.tmp
+*.tmp_bak
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.metadata/
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.gradle/
+.settings/
+
+# Logs
+logs/
+*.log
