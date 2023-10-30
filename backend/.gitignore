@@ -1,3 +1,5 @@
 # Maven target directory
 /target/
 /.mvn/
+mvnw
+mvnw.cmd
