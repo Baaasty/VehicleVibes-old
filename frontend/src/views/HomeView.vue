@@ -1,11 +1,7 @@
 <template>
-  <main>
-
-  </main>
+  <main></main>
 </template>
 
-<script setup>
-
-</script>
+<script setup></script>
 
 <style lang="scss" scoped></style>
