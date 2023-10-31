@@ -7,12 +7,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "lint": "eslint --fix --ext .js,.vue .",
-    "prepare": "cd .. && npx husky install frontend/.husky"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run lint"
-    }
+    "prepare": "cd .. && npx husky install frontend/.husky && rm frontend/.husky/pre-commit && npx husky add frontend/.husky/pre-commit \"cd frontend/ && npm run lint\" && git add frontend/.husky/pre-commit"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.2",
