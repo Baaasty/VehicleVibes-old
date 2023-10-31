@@ -4,7 +4,9 @@
 *.classpath
 *.project
 *.settings/
-.vscode/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
 *.code-workspace
 .classpath
 .project
