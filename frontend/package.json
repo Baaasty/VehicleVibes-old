@@ -5,7 +5,14 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "lint": "eslint --fix --ext .js,.vue .",
+    "prepare": "cd .. && npx husky install frontend/.husky"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint"
+    }
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.2",
