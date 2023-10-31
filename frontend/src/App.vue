@@ -17,6 +17,6 @@ import AppHeader from '@/components/AppHeader.vue';
 
 body {
   margin: 0;
-  padding: 0;
+  padding: 50;
 }
 </style>
