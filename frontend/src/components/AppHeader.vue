@@ -9,7 +9,7 @@
       <nav :class="showMobileMenu ? 'opened-menu' : 'closed-menu'">
         <ul class="nav-routes">
           <RouterLink to="/what-is-vehiclevibes" @click="closeMenu"> What is VehicleVibes? </RouterLink>
-          <RouterLink to="/faq" @click="closeMenu"> FAQ </RouterLink>
+                <RouterLink to="/faq" @click="closeMenu"> FAQ </RouterLink>
           <RouterLink to="/about" @click="closeMenu"> About </RouterLink>
         </ul>
         <ul class="nav-account">
