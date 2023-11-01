@@ -7,7 +7,12 @@ module.exports = {
   extends: ['eslint:recommended', 'plugin:vue/vue3-recommended', 'prettier'],
   plugins: ['prettier'],
   rules: {
-    'prettier/prettier': ['error'],
+    'prettier/prettier': [
+      'error',
+      {
+        endOfLine: 'auto',
+      },
+    ],
     'vue/require-default-prop': 'off',
     'vue/html-indent': ['error', 2],
     'vue/singleline-html-element-content-newline': 0,
