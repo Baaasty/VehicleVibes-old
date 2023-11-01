@@ -24,4 +24,5 @@
         "typescriptreact",
         "vue"
     ],
+    "java.configuration.updateBuildConfiguration": "interactive",
 }

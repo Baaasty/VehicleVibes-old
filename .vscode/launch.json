@@ -14,7 +14,9 @@
         "DATABASE_PORT": "3306",
         "DATABASE_NAME": "vehiclevibes",
         "DATABASE_USERNAME": "root",
-        "DATABASE_SECRET": ""
+        "DATABASE_SECRET": "",
+        "JWT_SECRET": "======================BezKoder=Spring===========================",
+        "JWT_EXPIRATION_MS": 86400000
       }
     },
     {
